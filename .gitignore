@@ -1,0 +1,28 @@
+# Virtual Environment
+venv/
+env/
+ENV/
+
+# Byte-compiled / optimized files (Python cache)
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Environment variables (NEVER COMMIT SECRETS)
+.env
+
+# Database (Development SQLite)
+*.sqlite3
+db.sqlite3
+
+# Media uploads (user uploaded resumes and generated PDFs)
+media/
+
+# Static files collected for production
+staticfiles/
+
+# OS / Editor specific files
+.vscode/
+.idea/
+.DS_Store
+Thumbs.db
